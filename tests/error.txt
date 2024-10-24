@@ -1,0 +1,169 @@
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 364, in run_tests
+    did_pass, reason, extra = test.run(pipelined=pipelined)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 284, in run
+    kill_proc(proc)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 401, in kill_proc
+    if proc.poll() is None:
+AttributeError: 'NoneType' object has no attribute 'poll'
+FAIL: tests/unit-alu/alu-add.circ (Unknown test error)
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 364, in run_tests
+    did_pass, reason, extra = test.run(pipelined=pipelined)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 284, in run
+    kill_proc(proc)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 401, in kill_proc
+    if proc.poll() is None:
+AttributeError: 'NoneType' object has no attribute 'poll'
+FAIL: tests/unit-alu/alu-all.circ (Unknown test error)
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 364, in run_tests
+    did_pass, reason, extra = test.run(pipelined=pipelined)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 284, in run
+    kill_proc(proc)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 401, in kill_proc
+    if proc.poll() is None:
+AttributeError: 'NoneType' object has no attribute 'poll'
+FAIL: tests/unit-alu/alu-logic.circ (Unknown test error)
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 364, in run_tests
+    did_pass, reason, extra = test.run(pipelined=pipelined)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 284, in run
+    kill_proc(proc)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 401, in kill_proc
+    if proc.poll() is None:
+AttributeError: 'NoneType' object has no attribute 'poll'
+FAIL: tests/unit-alu/alu-mult.circ (Unknown test error)
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 364, in run_tests
+    did_pass, reason, extra = test.run(pipelined=pipelined)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 284, in run
+    kill_proc(proc)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 401, in kill_proc
+    if proc.poll() is None:
+AttributeError: 'NoneType' object has no attribute 'poll'
+FAIL: tests/unit-alu/alu-shift.circ (Unknown test error)
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
+    proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'java'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 364, in run_tests
+    did_pass, reason, extra = test.run(pipelined=pipelined)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 284, in run
+    kill_proc(proc)
+  File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 401, in kill_proc
+    if proc.poll() is None:
+AttributeError: 'NoneType' object has no attribute 'poll'
+FAIL: tests/unit-alu/alu-slt-sub-bsel.circ (Unknown test error)
+Passed 0/6 tests

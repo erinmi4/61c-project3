@@ -254,7 +254,7 @@ class TestCase:
             with output_path.open("w") as output_file:
                 proc = subprocess.Popen(
                     [
-                        r"C:\Program Files\Java\jdk-22\bin\java.exe",  # 使用完整路径
+                        "java",
                         "-jar",
                         str(logisim_path),
                         "-tty",
