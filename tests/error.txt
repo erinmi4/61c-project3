@@ -1,3 +1,4 @@
+PS D:\lecture\CS61C\code\fa24-proj3-starter> bash test.sh test_alu
 Traceback (most recent call last):
   File "/mnt/d/lecture/CS61C/code/fa24-proj3-starter/tools/run_test.py", line 255, in run
     proc = subprocess.Popen(
